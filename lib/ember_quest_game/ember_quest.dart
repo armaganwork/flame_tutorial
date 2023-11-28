@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 
 import 'actors/ember.dart';
 import 'actors/water_enemy.dart';
+
 import 'managers/segment_manager.dart';
 import 'objects/ground_block.dart';
 import 'objects/platform_block.dart';
 import 'objects/star.dart';
 import 'overlays/hud.dart';
-
 
 class EmberQuestGame extends FlameGame with HasCollisionDetection, HasKeyboardHandlerComponents {
   EmberQuestGame();

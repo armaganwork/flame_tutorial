@@ -4,7 +4,6 @@ import 'package:flame/effects.dart';
 import 'package:flutter/services.dart';
 
 import '../ember_quest.dart';
-import '../main.dart';
 import '../objects/ground_block.dart';
 import '../objects/platform_block.dart';
 import '../objects/star.dart';

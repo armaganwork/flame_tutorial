@@ -2,9 +2,7 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 
-
 import '../ember_quest.dart';
-import '../main.dart';
 
 class WaterEnemy extends SpriteAnimationComponent with HasGameReference<EmberQuestGame> {
   final Vector2 gridPosition;
